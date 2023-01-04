@@ -381,6 +381,7 @@
 "Assets/HardLight2D/Demo/DemoScripts/MeshCopy.cs"
 "Assets/HardLight2D/Demo/DemoScripts/PolyWobbler.cs"
 "Assets/HardLight2D/Demo/DemoScripts/Speen.cs"
+"Assets/Script/AppDatas.cs"
 "Assets/Script/Interactable.cs"
 "Assets/Script/Main_Menu.cs"
 "Assets/Script/MoveLevel.cs"

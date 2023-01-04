@@ -11,12 +11,22 @@ public class Player : MonoBehaviour
     private NavMeshAgent _agent;
     private Animator _animator;
     private Vector2 _stuckDistanceCheck;
-    
+    [SerializeField] private AppDatas _appDatas;
+
 
     private void Start()
     {
         _target = transform.position;
 
+        if (_appDatas.previousScene == 1)
+        {
+            gameObject.transform.position = _appDatas.posEnterHouse;
+        }
+        
+        if (_appDatas.previousScene == 2)
+        {
+            gameObject.transform.position = _appDatas.posExitHouse;
+        }
     }
 
     private void Update()

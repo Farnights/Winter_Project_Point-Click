@@ -383,10 +383,12 @@
 "Assets/HardLight2D/Demo/DemoScripts/Speen.cs"
 "Assets/Script/AppDatas.cs"
 "Assets/Script/Interactable.cs"
+"Assets/Script/ItemDatas.cs"
 "Assets/Script/Main_Menu.cs"
 "Assets/Script/MoveLevel.cs"
 "Assets/Script/Player.cs"
 "Assets/Script/Sign.cs"
+"Assets/Script/YouWin.cs"
 -langversion:9.0
 
 /deterministic

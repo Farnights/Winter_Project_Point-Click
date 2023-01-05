@@ -9,19 +9,24 @@ public class Interactable : MonoBehaviour
 {
     public GameObject clue;
     public bool playerInRange;
+    [SerializeField] private AppDatas _appDatas;
+    [SerializeField] private ItemDatas _itemDatas;
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
         {
-            if (clue.activeInHierarchy)
+            if (clue.activeInHierarchy && _itemDatas.itemOwned == false)
             {
                 clue.SetActive(false);
+                _appDatas.itemStore++;
+                _itemDatas.itemOwned = true;
             }
             else
             {
                 clue.SetActive(true);
             }
+
         }
     }
 

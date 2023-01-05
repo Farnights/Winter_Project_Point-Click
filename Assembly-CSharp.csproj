@@ -46,12 +46,12 @@
      <Compile Include="Assets\Script\Main_Menu.cs" />
      <Compile Include="Assets\Script\MoveLevel.cs" />
      <Compile Include="Assets\Script\Player.cs" />
+     <Compile Include="Assets\Script\ItemDatas.cs" />
      <Compile Include="Assets\HardLight2D\Demo\DemoScripts\MeshCopy.cs" />
+     <Compile Include="Assets\Script\YouWin.cs" />
      <Compile Include="Assets\Script\AppDatas.cs" />
      <Compile Include="Assets\HardLight2D\Demo\DemoScripts\Speen.cs" />
      <Compile Include="Assets\HardLight2D\Demo\DemoScripts\PolyWobbler.cs" />
-     <Compile Include="Assets\Script\YouWin.cs" />
-     <Compile Include="Assets\Script\ItemDatas.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\HardLight2D\ReadMe - FAQ.txt" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

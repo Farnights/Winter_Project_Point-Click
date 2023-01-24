@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: ItemBread
   m_EditorClassIdentifier: 
   itemOwned: 0
-  itemIcone: {fileID: 0}
+  itemIcone: {fileID: -294142805, guid: 4f734f93441ba5a49bd7f595fc1490fa, type: 3}

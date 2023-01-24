@@ -12,6 +12,9 @@ public class Interactable : MonoBehaviour
     [SerializeField] private AppDatas _appDatas;
     [SerializeField] private ItemDatas _itemDatas;
 
+
+    
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Space) && playerInRange)
@@ -22,11 +25,13 @@ public class Interactable : MonoBehaviour
                 _appDatas.itemStore++;
                 _itemDatas.itemOwned = true;
             }
-            else
-            {
-                clue.SetActive(true);
-            }
-
+            
+            
+        }
+        
+        if (_itemDatas.itemOwned == true)
+        {
+                clue.SetActive(false);
         }
     }
 

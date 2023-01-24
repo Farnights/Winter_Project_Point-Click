@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class YouWin : MonoBehaviour
 {
@@ -15,7 +16,7 @@ public class YouWin : MonoBehaviour
     {
         if (_appDatas.itemStore == 7)
         {
-            _youWin.text = "YOU WIN";
+            SceneManager.LoadScene("FinalScreen", LoadSceneMode.Single);
         }
     }
 }

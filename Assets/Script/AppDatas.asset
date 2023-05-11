@@ -15,5 +15,5 @@ MonoBehaviour:
   posExitHouse: {x: -9.805011, y: -3.237989, z: -0.3257838}
   posEnterHouse: {x: -0.7267817, y: -2.567841, z: -0.1457842}
   posStart: {x: -6.956, y: -5.877, z: -0.3257835}
-  previousScene: 2
-  itemStore: 2
+  previousScene: 0
+  itemStore: 0

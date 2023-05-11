@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 284cbec42f412d0438e0727dc19f1298, type: 3}
   m_Name: ItemSocks
   m_EditorClassIdentifier: 
-  itemOwned: 1
+  itemOwned: 0
   itemIcone: {fileID: 21300000, guid: 5cc98859befa42b449930fc44d801071, type: 3}
